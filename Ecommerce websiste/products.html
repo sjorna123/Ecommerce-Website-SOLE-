@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLE</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a class="nav-logo" href="index.html">S<span>O</span>LE</a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li id="rm">
+            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+        <div id="mobile">
+          <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+          <i id="bar" class="fas fa-bars"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="p-header">
+      <h1>SHOP</h1>
+      <p>Save more - up to 50% off!</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href = 'sproducts.html'">
+          <img src="assets/shoes/a1.jpg" alt="" />
+          <div class="des">
+            <span>Nike</span>
+            <h5>Air Max Ultra</h5>
+            <h4>$119</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Nike Air Max Ultra Boost"
+            data-price="119"
+            data-image="assets/shoes/a1.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a2.jpg" alt="" />
+          <div class="des">
+            <span>Puma</span>
+            <h5>Running Sprint</h5>
+            <h4>$95</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Puma Running Sprint Pro"
+            data-price="95"
+            data-image="assets/shoes/a2.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a3.jpg" alt="" />
+          <div class="des">
+            <span>New Balance</span>
+            <h5>990 Trail</h5>
+            <h4>$135</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="New Balance 990 Trail"
+            data-price="135"
+            data-image="assets/shoes/a3.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a4.jpg" alt="" />
+          <div class="des">
+            <span>Jordan</span>
+            <h5>High Top</h5>
+            <h4>$155</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Jordan High Top Classic"
+            data-price="155"
+            data-image="assets/shoes/a4.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a5.jpg" alt="" />
+          <div class="des">
+            <span>Converse</span>
+            <h5>All-Star</h5>
+            <h4>$65</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Converse All-Star Canvas"
+            data-price="65"
+            data-image="assets/shoes/a5.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a6.jpg" alt="" />
+          <div class="des">
+            <span>Skechers</span>
+            <h5>Comfort Flex</h5>
+            <h4>$85</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Skechers Comfort Flex"
+            data-price="85"
+            data-image="assets/shoes/a6.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a7.jpg" alt="" />
+          <div class="des">
+            <span>ASICS</span>
+            <h5>Gel Runner</h5>
+            <h4>$125</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="ASICS Gel Runner"
+            data-price="125"
+            data-image="assets/shoes/a7.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a8.jpg" alt="" />
+          <div class="des">
+            <span>Vans</span>
+            <h5>Classic Skate</h5>
+            <h4>$75</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Vans Classic Skate"
+            data-price="75"
+            data-image="assets/shoes/a8.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a9.jpg" alt="" />
+          <div class="des">
+            <span>Reebok</span>
+            <h5>Royal Classic</h5>
+            <h4>$80</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Reebok Royal Classic"
+            data-price="80"
+            data-image="assets/shoes/a9.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a10.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Ultraboost DNA</h5>
+            <h4>$145</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="adidas Ultraboost DNA"
+            data-price="145"
+            data-image="assets/shoes/a10.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s1.jpg" alt="" />
+          <div class="des">
+            <span>Fila</span>
+            <h5>Disruptor</h5>
+            <h4>$98</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Fila Disruptor Casual"
+            data-price="98"
+            data-image="assets/shoes/s1.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/a2.jpg" alt="" />
+          <div class="des">
+            <span>Adidas</span>
+            <h5>NMD Boost</h5>
+            <h4>$110</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Adidas NMD Boost Tech"
+            data-price="110"
+            data-image="assets/shoes/s2.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s3.jpg" alt="" />
+          <div class="des">
+            <span>Nike</span>
+            <h5>React Infinity</h5>
+            <h4>$160</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Nike React Infinity"
+            data-price="160"
+            data-image="assets/shoes/s3.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s4.jpg" alt="" />
+          <div class="des">
+            <span>Puma</span>
+            <h5>Future Rider</h5>
+            <h4>$105</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Puma Future Rider"
+            data-price="105"
+            data-image="assets/shoes/s4.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s5.jpg" alt="" />
+          <div class="des">
+            <span>New Balance</span>
+            <h5>Fresh Foam</h5>
+            <h4>$130</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="New Balance Fresh Foam"
+            data-price="130"
+            data-image="assets/shoes/s5.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s6.jpg" alt="" />
+          <div class="des">
+            <span>Jordan</span>
+            <h5>Retro 1 Elite</h5>
+            <h4>$175</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Jordan Retro 1 Elite"
+            data-price="175"
+            data-image="assets/shoes/s6.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s7.jpg" alt="" />
+          <div class="des">
+            <span>Converse</span>
+            <h5>High Platform</h5>
+            <h4>$85</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Converse High Platform"
+            data-price="85"
+            data-image="assets/shoes/s7.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s8.jpg" alt="" />
+          <div class="des">
+            <span>Skechers</span>
+            <h5>GoWalk Ultra</h5>
+            <h4>$90</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Skechers GoWalk Ultra"
+            data-price="90"
+            data-image="assets/shoes/s8.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s9.jpg" alt="" />
+          <div class="des">
+            <span>ASICS</span>
+            <h5>Gel Evolution</h5>
+            <h4>$128</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="ASICS Gel Evolution"
+            data-price="128"
+            data-image="assets/shoes/s9.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="pro">
+          <img src="assets/shoes/s10.jpg" alt="" />
+          <div class="des">
+            <span>Vans</span>
+            <h5>Old Skool Pro</h5>
+            <h4>$88</h4>
+          </div>
+          <button
+            class="cartbtn add-to-cart-btn"
+            data-product-name="Vans Old Skool Pro"
+            data-price="88"
+            data-image="assets/shoes/s10.jpg"
+            onclick="event.stopPropagation()"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="page" class="section-p1">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+        <p>
+          <a class="details" href="about.html"><u>Learn More</u></a>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="footer">
+      <div class="footer-box">
+        <a class="nav-logo" href="index.html">S<span>O</span>LE</a>
+        <br /><br />
+        <h4>Contact Us</h4>
+        <p><strong>Address: </strong>Baneshwor, Nepal</p>
+        <p><strong>Phone: </strong> +977 98-12345678</p>
+        <p><strong>Email: </strong> info@sole.com</p>
+      </div>
+
+      <div class="footer-box">
+        <h4>About</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="about.html">Terms & Conditions</a></p>
+        <p><a href="about.html">Privacy Policy</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+        <br />
+      </div>
+
+      <div class="footer-box">
+        <h4>Account</h4>
+        <p><a href="login.html">Login</a></p>
+        <p><a href="register.html">Register</a></p>
+        <p><a href="cart.html">Cart</a></p>
+        <p><a href="contact.html">Help</a></p>
+        <br />
+      </div>
+
+      <div class="payment">
+        <h4>We Accept:</h4>
+        <img src="img/pay/pay.png" alt="" />
+
+        <br /><br />
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
